@@ -26,6 +26,9 @@ export default {
     .text-section2 {
       color: #df8fc5;
     }
+    .background-section2 {
+      background-color: #fdf5fc;
+    }
     .text-section3 {
       color: #6e819e;
     }

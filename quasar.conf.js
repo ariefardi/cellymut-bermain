@@ -53,7 +53,9 @@ module.exports = function (ctx) {
         'QCard',
         'QCardTitle',
         'QCardMain',
-        'QCardActions'
+        'QCardActions',
+        'QSelect',
+        'QInput'
       ],
       directives: [
         'Ripple'
