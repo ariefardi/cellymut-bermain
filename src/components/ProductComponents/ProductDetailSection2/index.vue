@@ -143,6 +143,12 @@ export default {
 	.section2{
 		height: 100%;
 	}
+	.pilihan{
+		font-size: 24px;
+	}
+	.left{
+		display: none;
+	}
 }
 </style>
 

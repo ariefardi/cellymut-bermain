@@ -16,6 +16,8 @@
             </div>
         </div>
     </div>
+
+
 </template>
 <script>
 import {facebook, instagram} from '../../../config/images.js'
@@ -34,7 +36,7 @@ export default {
     height: 100px;
 }
 .copy{
-    position: absolute;
+    /* position: absolute; */
     margin-top: 40px;
     margin-left: 73px;
 }

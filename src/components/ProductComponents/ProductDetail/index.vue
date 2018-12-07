@@ -24,16 +24,22 @@
 						<h1 class="font-size-header-48 font-weight-normal">Rp500,000</h1>
 					</q-card-title>
 					<q-card-main class="row">
-						<div class="row wrap col-3">
+						<div class="row wrap col-md-3 col-xs-12 col-sm-12">
 							<div class="column">
 								<p class="text-navbar font-size-subheader-28 font-weight-normal">Size</p>
+								<!-- <select name="carlist">
+								<option value="volvo">Volvo</option>
+								<option value="saab">Saab</option>
+								<option value="opel">Opel</option>
+								<option value="audi">Audi</option>
+								</select> -->
 								<q-select
 								v-model="select"
 								:options="selectOptions"
 								/>
 							</div>
 						</div>
-						<div class="row wrap col-9">
+						<div class="row wrap col-md-9 col-xs-12 col-sm-12">
 							<div class="column">
 								<p class="text-navbar font-size-subheader-28 font-weight-normal">Name</p>
 									<!-- <q-input class="inputText" v-model="text" placeholder="Your Name" /> -->
@@ -108,7 +114,8 @@ export default {
 				squash
 			]
 		}
-	}
+	},
+	
 }
 </script>
 
@@ -119,6 +126,7 @@ export default {
 } 
 .inputText{
 	width: 300px;
+	height: 32px;
 }
 .btn-sold{
 	width: 100px;
@@ -136,6 +144,12 @@ export default {
 }
 .image{
 	padding: 5px;
+}
+@media only screen and (max-width: 400px){
+	.show{
+		position: relative;
+		right: 2px;
+	}
 }
 </style>
 

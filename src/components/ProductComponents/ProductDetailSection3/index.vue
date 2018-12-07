@@ -1,5 +1,5 @@
 <template>
-    <div class="row section4">
+    <div class="row section4" style="width:100%">
         <div class="col-md-6 col-xs-12 col-sm-12">
             <div class="row wrap justify-start">
                 <p class="copy">© Copyright 2018 Cellymut</p>

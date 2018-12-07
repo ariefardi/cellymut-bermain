@@ -10,7 +10,7 @@
 					<div>
 						<p class="T1">Tutorial 1</p> 
 						<p class="description">Pemain melempar dadu secara bergiliran, angka yang terbanyak, memainkan permainan
-terlebih dahulu</p>
+							terlebih dahulu</p>
 					</div>
 					<div>
 						<p class="T1">Tutorial 2</p>
@@ -96,6 +96,21 @@ export default {
   box-shadow: 0 6px 9px 0 rgba(0, 0, 0, 0.16);
 	background-color: #ec6e82;
 	margin-top:50px;
+}
+@media only screen and (max-width:400px){
+	.btn-lanjut{
+		margin-bottom: 30px;
+		margin-top: 60px;
+	}
+	.description{
+		font-size: 16px;
+		margin-right: 16px;
+		margin-top: -27px;
+		margin-bottom: 24px;
+	}
+	.T1{
+		font-size: 16px;
+	}
 }
 </style>
 

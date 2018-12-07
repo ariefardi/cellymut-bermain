@@ -23,6 +23,9 @@ export default {
     .text-navbar {
       color: #6e819e;
     }
+    .text-auth {
+      color: #766a77
+    }
     .text-section2 {
       color: #df8fc5;
     }
