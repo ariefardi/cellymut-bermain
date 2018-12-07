@@ -53,7 +53,10 @@ module.exports = function (ctx) {
         'QCard',
         'QCardTitle',
         'QCardMain',
-        'QCardActions'
+        'QCardActions',
+        'QInput',
+        'QBreadcrumbs',
+        'QBreadcrumbsEl'
       ],
       directives: [
         'Ripple'

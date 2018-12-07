@@ -4,13 +4,13 @@
       <img class="logo-size" :src="logo" alt="logo celimute" >
       <q-toolbar-title>
       </q-toolbar-title>
-      <q-btn no-ripple flat  >
+      <q-btn no-ripple flat to="/"  >
         Produk
       </q-btn>
-      <q-btn no-ripple flat  >
+      <q-btn no-ripple flat to="/about" >
         Tentang Kami
       </q-btn>
-      <q-btn no-ripple flat  >
+      <q-btn no-ripple flat to="/askme"  >
         Tanya Kami
       </q-btn>
     </q-toolbar>
