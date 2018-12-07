@@ -7,10 +7,10 @@
       <q-btn no-ripple flat @click="moveToProduct"  >
         Produk
       </q-btn>
-      <q-btn no-ripple flat  >
+      <q-btn no-ripple flat to="/about" >
         Tentang Kami
       </q-btn>
-      <q-btn no-ripple flat  >
+      <q-btn no-ripple flat to="/askme"  >
         Tanya Kami
       </q-btn>
     </q-toolbar>

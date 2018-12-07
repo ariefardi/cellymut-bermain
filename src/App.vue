@@ -35,6 +35,9 @@ export default {
     .text-section3 {
       color: #6e819e;
     }
+    .text-about-section-1 {
+      color: #766a77;
+    }
     .font-weight-normal {
       font-weight: 500;
     }
@@ -46,12 +49,12 @@ export default {
       font-size: 28.8px !important;
     }
     .font-size-subheader-28 {
-      font-size: 16.8px !important;
+      font-size: 19.8px !important;
       /*font-size: 28px !important;*/
     }
     .font-size-paragraph-24 {
       /*font-size: 24px;*/
-      font-size: 16.8px;
+      font-size: 16.32px;
     }
     .font-size-paragraph-18 {
       font-size: 10.8px !important;
