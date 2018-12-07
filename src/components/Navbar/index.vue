@@ -4,7 +4,7 @@
       <img class="logo-size" :src="logo" alt="logo celimute" >
       <q-toolbar-title>
       </q-toolbar-title>
-      <q-btn no-ripple flat to="/"  >
+      <q-btn no-ripple flat @click="moveToProduct"  >
         Produk
       </q-btn>
       <q-btn no-ripple flat to="/about" >
@@ -30,10 +30,17 @@
       }
     },
     methods: {
-      openURL
+      openURL,
+      moveToProduct(){
+        this.$router.push('/product')
+      }
     }
   }
 </script>
 
-<style>
+<style scoped>
+.barName{
+  text-decoration: none;
+}
 </style>
+
